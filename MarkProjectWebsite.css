@@ -33,6 +33,10 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
   border-radius: 10px;
 }
+#wrapper{
+      width:960px;
+      margin:0 auto;
+ }
 /*------------------------------------------------------------*/
 #HomePage{
   position: absolute;
