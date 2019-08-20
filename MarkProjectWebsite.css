@@ -155,17 +155,18 @@ table{
 }
 #ProjectTitle{
   position: absolute;
-  top:-7%;
+  top:-5%;
   left:50%;
   height: 10vh;
   margin-top: -5vh;
   Width: 30vh;
   margin-left: -15vh;
   border-radius: 5vh;
-  /*font-size: 9%;*/
+/*font:9vh Raleway;*/
   color: #3d3d29;
+  font:4vh Verdana black;
   font-family: 'Raleway';
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
 }
 #Projects{
@@ -398,17 +399,18 @@ table{
 }
 #ConnectTitle{
   position: absolute;
-  top:-22%;
+  top:-17%;
   left:50%;
   height: 10vh;
   margin-top: -5vh;
   Width: 30vh;
   margin-left: -15vh;
   border-radius: 5vh;
-  /*font-size: 9%;*/
+  /*font:9vh Raleway;*/
   color: #3d3d29;
+  font:4vh Verdana black;
   font-family: 'Raleway';
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
 }
 #ConnectIntro{
