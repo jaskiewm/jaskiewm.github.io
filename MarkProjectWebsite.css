@@ -35,6 +35,8 @@ body::-webkit-scrollbar-thumb {
 }
 #wrapper{
       width:960px;
+      margin-left: 960px;
+      left: 50%;
       margin:0 auto;
  }
 /*------------------------------------------------------------*/
