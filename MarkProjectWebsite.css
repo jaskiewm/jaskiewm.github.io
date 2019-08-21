@@ -170,7 +170,7 @@ table{
     background-color: #95cfad;
     overflow-x:hidden;
     overflow-y:hidden;
-    border-radius: 4% / 9%;
+    border-radius: 7.8% / 7.4%;
   }
   #ProjectPreviewBorder{
     position: absolute;
@@ -374,9 +374,9 @@ table{
 }
 #ConnectIntro{
   position: absolute;
-  left: 5%;
+  left: 15%;
   top: -15%;
-  width: 50%;
+  width: 40%;
   height: 10%;
   margin-top: -5vh;
   font:3vh Raleway;
@@ -387,9 +387,9 @@ table{
 }
 #ConnectEmail{
   position: absolute;
-  left: 5%;
+  left: 15%;
   top: 5%;
-  width: 50%;
+  width: 40%;
   height: 20%;
   font:110% Raleway;
   color: #5c5c3d;
@@ -397,13 +397,13 @@ table{
   font-weight: bolder;
   background-color:#c0e0a3;
   text-align: center;
-  border-radius: 3% / 24%;
+  border-radius: 12% / 24%;
 }
 #ConnectPhone{
   position: absolute;
-  left: 5%;
+  left: 15%;
   top: 30%;
-  width: 50%;
+  width: 40%;
   height: 20%;
   font:110% Raleway;
   color: #5c5c3d;
@@ -411,13 +411,13 @@ table{
   font-weight: bolder;
   background-color:#c0e0a3;
   text-align: center;
-  border-radius: 3% / 24%;
+  border-radius: 12% / 24%;
   }
 #ConnectLinkedIn{
   position: absolute;
-  left: 5%;
+  left: 15%;
   top: 55%;
-  width: 50%;
+  width: 40%;
   height: 20%;
   font:110% Raleway;
   color: #5c5c3d;
@@ -425,7 +425,7 @@ table{
   font-weight: bolder;
   background-color:#c0e0a3;
   text-align: center;
-  border-radius: 3% / 24%;
+  border-radius: 12% / 24%;
   }
 #ConnectResume{
   position: absolute;
