@@ -397,7 +397,7 @@ table{
   font-weight: bolder;
   background-color:#c0e0a3;
   text-align: center;
-  border-radius: 12% / 24%;
+  border-radius: 24% / 12%;
 }
 #ConnectPhone{
   position: absolute;
@@ -411,7 +411,7 @@ table{
   font-weight: bolder;
   background-color:#c0e0a3;
   text-align: center;
-  border-radius: 12% / 24%;
+  border-radius: 24% / 12%;
   }
 #ConnectLinkedIn{
   position: absolute;
@@ -425,7 +425,7 @@ table{
   font-weight: bolder;
   background-color:#c0e0a3;
   text-align: center;
-  border-radius: 12% / 24%;
+  border-radius: 24% / 12%;
   }
 #ConnectResume{
   position: absolute;
