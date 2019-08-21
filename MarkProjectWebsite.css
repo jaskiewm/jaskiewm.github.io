@@ -20,6 +20,9 @@ img{
 /*------------------------------------------------------------*/
 body{
     overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom,#a8dff0 0%,#caf0ad 100%); /* #a7ebc7 33.333%, #caf0ad 66.66667%,#b1f0aa 100%);*/
 }
 body::-webkit-scrollbar {
     height: 10px;
@@ -46,33 +49,28 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   top: 0%;
   left: 0%;
+  /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);*/
 }
 #ProjectPage{
   position: absolute;
   width: 100%;
-  height: 120%;
+  height: 100%;
   top: 100%;
   left: 0%;
+  /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
 }
 #ConnectPage{
   position: absolute;
   width: 100%;
-  height: 80%;
+  height: 50%;
   top: 220%;
   left: 0%;
+  /*background-image: linear-gradient(to bottom, #caf0ad 0%, #b1f0aa 100%);*/
 }
 /*------------------------------------------------------------*/
-#HomeBackground{
-  position: absolute;
-  width: 105%;
-  height: 100%;
-  background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);
-  top: 0%;
-  left: 0%;
-}
 #Name{
   position: absolute;
-  left: 5%;
+  left: 7%;
   width: 150vh;
   height: 10vh;
   margin-left:0vh;
@@ -83,7 +81,7 @@ body::-webkit-scrollbar-thumb {
 }
 #QuickIntro{
   position: absolute;
-  left: 5%;
+  left: 7%;
   top: 10%;
   width: 150vh;
   height: 10vh;
@@ -96,10 +94,10 @@ body::-webkit-scrollbar-thumb {
 }
 #PictureOfMe{
   position: absolute;
-  left: 10%;
+  left: 12%;
   top: 20%;
-  width: 45vh;
-  height: 45vh;
+  width: 18%;
+  height: 36%;
   border-radius: 100%;
   overflow: hidden;
   border: black 3px solid;
@@ -107,7 +105,7 @@ body::-webkit-scrollbar-thumb {
 #AboutMe{
   position: absolute;
   left: 10%;
-  top: 67%;
+  top: 60%;
   width: 100vh;
   height: 50vh;
   font:2vh Raleway;
@@ -133,76 +131,50 @@ table{
 }
 #AboutMe2{
   position: absolute;
-  left: 35%;
+  left: 37%;
   top: 20%;
-  width: 115vh;
-  height: 60vh;
-  font:3vh Raleway;
+  width: 50%;
+  height: 55%;
+  font:2.75vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   background-color: #9ed0de;
-  border-radius: 5% / 8%;
+  border-radius: 5% / 5.5%;
   padding: 1%
 }
 /*------------------------------------------------------------*/
-#ProjectBackground{
-  position: absolute;
-  width: 105%;
-  height: 100%;
-  background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);
-  top: 0%;
-  left: 0%;
-}
 #ProjectTitle{
   position: absolute;
-  top:-5%;
+  top:-10%;
   left:50%;
-  height: 10vh;
-  margin-top: -5vh;
-  Width: 30vh;
-  margin-left: -15vh;
-  border-radius: 5vh;
-/*font:9vh Raleway;*/
+  height: 1%;
+  margin-top: -0.5%;
+  Width: 90%;
+  margin-left: -45%;
+  border-bottom: black solid 1px;
+/*font:9vh Raleway;
   color: #3d3d29;
   font:4vh Verdana black;
   font-family: 'Raleway';
   font-weight: bolder;
-  text-align: center;
+  text-align: center;*/
 }
 #Projects{
     position: absolute;
-    top:30%;
+    top:-1%;
     left:50%;
-    height: 80vh;
-    margin-top: -30vh;
-    Width: 180vh;
-    margin-left: -90vh;
+    height: 78%;
+    Width: 74%;
+    margin-left: -37%;
     word-wrap: break-word;
     background-color: #95cfad;
     overflow-x:hidden;
     overflow-y:hidden;
     border-radius: 4% / 9%;
   }
-  /*
-  #Projects::-webkit-scrollbar {
-      height: 10px;
-      background-color: rgba(0, 0, 0, 0);
-  }
-  #Projects::-webkit-scrollbar-track {
-      /*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);*/
-      /*  background-color: #8080ff;
-      background-color: rgba(0, 0, 0, 0);
-      background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 20%,black 20%,black 80%,rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%)
-  }
-  #Projects::-webkit-scrollbar-thumb {
-    outline: 1px solid slategrey;
-    border-radius: 10px;
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 25%,darkgrey 25%,darkgrey 75%,rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0) 100%);
-  }
-  */
   #ProjectPreviewBorder{
     position: absolute;
-    top:75%;
+    top:73%;
     left:50%;
     width:  87.5vh;
     height: 35vh;
@@ -215,9 +187,8 @@ table{
     position: absolute;
     width:  24vh;
     height: 32vh;
-    top:30%;
+    top:4%;
     left:10%;
-    margin-top: -18vh;
     margin-left: -12vh;
     word-wrap: break-word;
     border-radius: 12%/9%;
@@ -229,7 +200,7 @@ table{
   }
   #Project1Preview{
     position: absolute;
-    top:75%;
+    top:73%;
     left:50%;
     width:  87.5vh;
     height: 35vh;
@@ -252,9 +223,8 @@ table{
     position: absolute;
     width:  24vh;
     height: 32vh;
-    top:30%;
+    top:4%;
     left:30%;
-    margin-top: -18vh;
     margin-left: -12vh;
     word-wrap: break-word;
     background-color: pink;
@@ -264,7 +234,7 @@ table{
   }
   #Project2Preview{
     position: absolute;
-    top:75%;
+    top:73%;
     left:50%;
     width:  87.5vh;
     height: 35vh;
@@ -287,9 +257,8 @@ table{
     position: absolute;
     width:  24vh;
     height: 32vh;
-    top:30%;
+    top:4%;
     left:50%;
-    margin-top: -18vh;
     margin-left: -12vh;
     word-wrap: break-word;
     background-color: blue;
@@ -299,7 +268,7 @@ table{
   }
   #Project3Preview{
     position: absolute;
-    top:75%;
+    top:73%;
     left:50%;
     width:  87.5vh;
     height: 35vh;
@@ -322,9 +291,8 @@ table{
     position: absolute;
     width:  24vh;
     height: 32vh;
-    top:30%;
+    top:4%;
     left:70%;
-    margin-top: -18vh;
     margin-left: -12vh;
     word-wrap: break-word;
     background-color: green;
@@ -357,9 +325,8 @@ table{
     position: absolute;
     width:  24vh;
     height: 32vh;
-    top:30%;
+    top:4%;
     left:90%;
-    margin-top: -18vh;
     margin-left: -12vh;
     word-wrap: break-word;
     border-radius: 12%/9%;
@@ -377,7 +344,7 @@ table{
   #ProjectInfo{
     position: absolute;
     left: 50%;
-    top: 94%;
+    top: 105%;
     width: 150vh;
     height: 50vh;
     margin-left: -75vh;
@@ -389,51 +356,42 @@ table{
     text-align: left;
   }
 /*------------------------------------------------------------*/
-#ConnectBackground{
-  position: absolute;
-  width: 105%;
-  height: 100%;
-  background-image: linear-gradient(to bottom, #caf0ad 0%, #b1f0aa 100%);
-  top: 0%;
-  left: 0%;
-}
 #ConnectTitle{
   position: absolute;
-  top:-17%;
+  top:-35%;
   left:50%;
-  height: 10vh;
-  margin-top: -5vh;
-  Width: 30vh;
-  margin-left: -15vh;
-  border-radius: 5vh;
-  /*font:9vh Raleway;*/
+  height: 1%;
+  margin-top: -0.5%;
+  Width: 90%;
+  margin-left: -45%;
+  border-bottom: black solid 1px;
+  /*font:9vh Raleway;
   color: #3d3d29;
   font:4vh Verdana black;
   font-family: 'Raleway';
   font-weight: bolder;
-  text-align: center;
+  text-align: center;*/
 }
 #ConnectIntro{
   position: absolute;
-  left: 50%;
-  top: 2%;
-  width: 200vh;
-  height: 10vh;
-  margin-left: -100vh;
+  left: 5%;
+  top: -15%;
+  width: 50%;
+  height: 10%;
   margin-top: -5vh;
-  font:3.75vh Raleway;
+  font:3vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 #ConnectEmail{
   position: absolute;
   left: 5%;
-  top: 15%;
-  width: 120vh;
-  height: 15vh;
-  font:3vh Raleway;
+  top: 5%;
+  width: 50%;
+  height: 20%;
+  font:110% Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bolder;
@@ -444,35 +402,35 @@ table{
 #ConnectPhone{
   position: absolute;
   left: 5%;
-  top: 40%;
-  width: 120vh;
-  height: 15vh;
-  font:3vh Raleway;
+  top: 30%;
+  width: 50%;
+  height: 20%;
+  font:110% Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bolder;
   background-color:#c0e0a3;
   text-align: center;
   border-radius: 3% / 24%;
-}
+  }
 #ConnectLinkedIn{
   position: absolute;
   left: 5%;
-  top: 65%;
-  width: 120vh;
-  height: 15vh;
-  font:3vh Raleway;
+  top: 55%;
+  width: 50%;
+  height: 20%;
+  font:110% Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bolder;
   background-color:#c0e0a3;
   text-align: center;
   border-radius: 3% / 24%;
-}
+  }
 #ConnectResume{
   position: absolute;
-  left: 80%;
-  top: 14%;
+  left: 75%;
+  top: -30%;
   width: 40vh;
   margin-left: -20vh;
   height: 55vh;
@@ -496,7 +454,7 @@ table{
 }
 h1{
   font-weight: bold;
-  font:4vh Raleway;
+  font:125% Raleway;
   /*position: relative;
   top: 25%;
   font:19px Courier New;
