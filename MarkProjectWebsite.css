@@ -436,6 +436,27 @@ table{
     overflow: hidden;
     border: grey solid 2px;
   }
+  #Project5Preview{
+    position: absolute;
+    top:73%;
+    left:50%;
+    width:  87.5vh;
+    height: 35vh;
+    opacity: 0;
+    margin-top: -17.5vh;
+    margin-left: -43.75vh;
+    -webkit-transition: opacity 250ms;
+    -ms-transition: opacity 250ms;
+     transition: opacity 250ms;
+     visibility: visible;
+     z-index: 1;
+  }
+  #Project5:hover + #Project5Preview{
+    opacity: 1;
+    -webkit-transition: opacity 250ms;
+    -ms-transition: opacity 250ms;
+     transition: opacity 250ms;
+  }
   #ProjectEnd{
     position: absolute;
     width:  1vh;
