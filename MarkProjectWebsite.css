@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb {
   left: 0%;
   /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);*/
 }
-#ProjectPage{
+#ExperiencePage{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -59,11 +59,19 @@ body::-webkit-scrollbar-thumb {
   left: 0%;
   /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
 }
+#ProjectPage{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 200%;
+  left: 0%;
+  /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
+}
 #ConnectPage{
   position: absolute;
   width: 100%;
   height: 50%;
-  top: 210%;
+  top: 310%;
   left: 0%;
   /*background-image: linear-gradient(to bottom, #caf0ad 0%, #b1f0aa 100%);*/
 }
@@ -101,6 +109,22 @@ body::-webkit-scrollbar-thumb {
   border-radius: 100%;
   overflow: hidden;
   border: black 3px solid;
+}
+#PictureInitials{
+  position: absolute;
+  left: 80%;
+  top: 5%;
+  width: 7%;
+  height: 7.5%;
+  border-radius: 100%;
+  overflow: hidden;
+  border: black 0.1vh solid;
+  font-family: 'AMGDT';
+  font-size: 5vh;
+  font-style: italic;
+  color: black;
+  padding-left: 1%;
+  vertical-align: middle;
 }
 #AboutMe{
   position: absolute;
@@ -143,6 +167,90 @@ table{
   padding: 1%
 }
 /*------------------------------------------------------------*/
+#ExperienceTitle{
+  position: absolute;
+  top:-10%;
+  left:50%;
+  height: 1%;
+  margin-top: -0.5%;
+  Width: 90%;
+  margin-left: -45%;
+  border-bottom: grey solid 2px;
+  opacity: 0.5;
+}
+#ExperienceInfo{
+  position: absolute;
+  left: 10%;
+  top: -6%;
+  width: 35%;
+  height: 50vh;
+  font:3vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  font-weight: bold;
+  text-align: left;
+}
+#Experience1{
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  width: 25%;
+  height: 40%;
+  background-color:#98d4c6;
+  text-align: center;
+  border-radius: 2.5% / 4% ;
+}
+#ExperienceDescription{
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 80%;
+  height: 75%;
+  text-align: Left;
+  border-radius: 2.5% / 4% ;
+     line-height: 0px;
+}
+#Experience2{
+  position: absolute;
+  left: 37.5%;
+  top: 0%;
+  width: 25%;
+  height: 40%;
+  background-color:#98d4c6;
+  text-align: center;
+  border-radius: 2.5% / 4% ;
+}
+#Experience3{
+  position: absolute;
+  left: 65%;
+  top: 0%;
+  width: 25%;
+  height: 40%;
+  background-color:#98d4c6;
+  text-align: center;
+    border-radius: 2.5% / 4% ;
+}
+#Experience4{
+  position: absolute;
+  left: 10%;
+  top: 45%;
+  width: 25%;
+  height: 40%;
+  background-color:#98d4c6;
+  text-align: center;
+    border-radius: 2.5% / 4% ;
+}
+#Experience5{
+  position: absolute;
+  left: 37.5%;
+  top: 45%;
+  width: 25%;
+  height: 40%;
+  background-color:#98d4c6;
+  text-align: center;
+    border-radius: 2.5% / 4% ;
+}
+/*------------------------------------------------------------*/
 #ProjectTitle{
   position: absolute;
   top:-10%;
@@ -153,12 +261,6 @@ table{
   margin-left: -45%;
   border-bottom: grey solid 2px;
   opacity: 0.5;
-/*font:9vh Raleway;
-  color: #3d3d29;
-  font:4vh Verdana black;
-  font-family: 'Raleway';
-  font-weight: bolder;
-  text-align: center;*/
 }
 #Projects{
     position: absolute;
@@ -377,11 +479,11 @@ table{
 #ConnectIntro{
   position: absolute;
   left: 15%;
-  top: -15%;
+  top: -20%;
   width: 40%;
   height: 10%;
   margin-top: -5vh;
-  font:3vh Raleway;
+  font-size: 2.8vh;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bold;
@@ -421,12 +523,12 @@ table{
   position: absolute;
   left: 75%;
   top: -30%;
-  width: 40vh;
+  width: 20%;
   margin-left: -20vh;
-  height: 55vh;
+  height: 27.5%;
   text-align: center;
   font-weight: bold;
-  font:125% Raleway;
+  font-size: 3vh;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bolder;
@@ -445,7 +547,7 @@ table{
 }
 h1{
   font-weight: bold;
-  font:140% Raleway;
+  font:3vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   /*position: relative;
@@ -462,29 +564,39 @@ h1{
 }
 h2{
   position: relative;
-  font:110% Raleway;
+  font:3vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bolder;
   text-decoration: underline;
   opacity: 0.9;
+  line-height: 1%;
 }
 h3{
-    font:2.5vh Verdana;
-    font-weight: bold;
-    font-family: 'Raleway';
-    color:#dadada;
-}
-H4{
-  font:4vh Verdana;
+  font:2.8vh Verdana;
   font-weight: bold;
   font-family: 'Raleway';
-  color:#dadada;
+  color: #5c5c3d;
+  line-height: 0px;
 }
-
+h4{
+  color: grey;
+  font:2vh Verdana;
+  font-weight: bold;
+  font-family: 'Raleway';
+  opacity: 0.9;
+}
+h5{
+  color: grey;
+  font:2.5vh Verdana;
+  font-weight: bold;
+  font-family: 'Raleway';
+  opacity: 0.7;
+  line-height: 0px;
+}
 #CopyRightLine{
   position: absolute;
-  top:253%;
+  top:353%;
   left:50%;
   height: 1%;
   margin-top: -0.5%;
@@ -493,10 +605,9 @@ H4{
   border-bottom: grey solid 2px;
   opacity: 0.5;
 }
-
 #CopyRight{
   position: absolute;
-  top:254%;
+  top:354%;
   left:50%;
   height: 5%;
   Width: 60%;
