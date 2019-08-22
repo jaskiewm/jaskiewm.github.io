@@ -184,7 +184,7 @@ table{
   top: -6%;
   width: 35%;
   height: 50vh;
-  font:3.2vh Raleway;
+  font:3vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bold;
@@ -208,7 +208,7 @@ table{
   height: 75%;
   text-align: Left;
   border-radius: 2.5% / 4% ;
-     line-height: 0px;
+  line-height: 0px;
 }
 #Experience2{
   position: absolute;
@@ -581,7 +581,7 @@ h3{
 }
 h4{
   color: grey;
-  font:2vh Verdana;
+  font:2.3vh Verdana;
   font-weight: bold;
   font-family: 'Raleway';
   opacity: 0.9;
