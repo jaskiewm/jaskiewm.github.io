@@ -18,14 +18,14 @@ a:visited{
 img{
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 /*------------------------------------------------------------*/
 body{
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  /*  background-image: linear-gradient(to bottom,#a8dff0 0%,#caf0ad 100%);  #a7ebc7 33.333%, #caf0ad 66.66667%,#b1f0aa 100%);*/
+    background-image: linear-gradient(to bottom,#a8dff0 0%,#caf0ad 100%); /* #a7ebc7 33.333%, #caf0ad 66.66667%,#b1f0aa 100%);*/
 }
 body::-webkit-scrollbar {
     height: 10px;
@@ -52,36 +52,21 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   top: 0%;
   left: 0%;
-  background-image: url('Home Background 2.jpg');
-  background-size: contain;
-  /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);
-  background-image: url('Home Background 2.jpg');
-  background-size: cover;*/
-}
-#AboutPage{
-  position: absolute;
-  width: 90%;
-  height: 90%;
-  top: 100%;
-  left: 5%;
   /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);*/
-  background-color:#d5deed;
-  background-size: cover;
-  border: 1px black solid;
 }
 #ExperiencePage{
   position: absolute;
-  width: 90%;
-  height: 90%;
-  top: 200%;
-  left: 5%;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0%;
   /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
 }
 #ProjectPage{
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 300%;
+  top: 200%;
   left: 0%;
   /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
 }
@@ -89,103 +74,75 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   width: 100%;
   height: 50%;
-  top: 410%;
+  top: 310%;
   left: 0%;
   /*background-image: linear-gradient(to bottom, #caf0ad 0%, #b1f0aa 100%);*/
 }
 /*------------------------------------------------------------*/
 #Name{
   position: absolute;
-  left: 50%;
-  top: 35%;
-  width: 75%;
-  height: 10%;
-  margin-left:-37.5%;
+  left: 7%;
+  width: 150vh;
+  height: 10vh;
+  margin-left:0vh;
   font:9vh Raleway;
   color: #3d3d29;
   font-family: 'Raleway';
   font-weight: bolder;
-  text-align: center;
+}
+@media (max-width: 960px) {
+ #Name {font-size: 5vh;}
 }
 #QuickIntro{
   position: absolute;
-  left: 50%;
-  top: 45%;
-  width: 75%;
-  height: 10%;
-  margin-left:-37.5%;
+  left: 7%;
+  top: 10%;
+  width: 150vh;
+  height: 10vh;
+  margin-left:0vh;
   font:4vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bold;
   opacity: 0.7;
-  text-align: center;
 }
 #PictureOfMe{
   position: absolute;
-  left: 80%;
-  top: 15%;
-  width: 20%;
-  padding-top: 20%;
-  height: auto;
-  margin-left:-10%;
+  left: 12%;
+  top: 20%;
+  width: 35vh;
+  height: 35vh;
   border-radius: 50%;
   overflow: hidden;
   border: black 3px solid;
   background-image:url('PictureOfMe2.png');
   background-size: cover;
 }
-#AboutTitle{
+#PictureInitials{
   position: absolute;
-  left: 50%;
+  left: 80%;
   top: 5%;
-  width: 25%;
-  height: 5%;
-  margin-left: -12.5%;
-  font:4vh Raleway;
-  color: #5c5c3d;
-  font-family: 'Raleway';
-  text-align: center;
-  font-weight: bold;
-  text-decoration: underline;
+  width: 7%;
+  height: 7.5%;
+  border-radius: 100%;
+  overflow: hidden;
+  border: black 0.1vh solid;
+  font-family: 'AMGDT';
+  font-size: 5vh;
+  font-style: italic;
+  color: black;
+  padding-left: 1%;
+  vertical-align: middle;
 }
 #AboutMe{
   position: absolute;
-  left: 5%;
-  top: 10%;
-  width: 60%;
-  height: 55%;
-  font:2.75vh Raleway;
-  color: #5c5c3d;
-  font-family: 'Raleway';
-  border-radius: 5% / 5.5%;
-  padding: 1%
-}
-#Bio{
-  position: absolute;
-  left: 9%;
-  top: 65%;
-  width: 34%;
-  /*margin-left: -12%;*/
-  height: 22%;
+  left: 10%;
+  top: 60%;
+  width: 100vh;
+  height: 50vh;
   font:2vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
-}
-#Skills{
-  position: absolute;
-  right: 8%;
-  top: 65%;
-  width: 40%;
-  /*margin-left: -17%;*/
-  height: 22%;
-  font:2vh Raleway;
-  color: #5c5c3d;
-  font-family: 'Raleway';
-}
-caption{
-  font:200% Raleway;
-  font-weight: bold;
 }
 th, td {
   padding-top: -1vh;
@@ -203,6 +160,19 @@ td:nth-child(2){
 }
 table{
   border-collapse: collapse;
+}
+#AboutMe2{
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  width: 50%;
+  height: 55%;
+  font:2.75vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  background-color: #9ed0de;
+  border-radius: 5% / 5.5%;
+  padding: 1%
 }
 /*------------------------------------------------------------*/
 #ExperienceTitle{
@@ -326,8 +296,10 @@ table{
   }
   #Project1{
     position: absolute;
-    width:  24vh;
-    height: 32vh;
+    background-image: url('NXProject.PNG');
+    background-size: 100% 100%;
+    width:  16%;
+    height: 40%;
     top:4%;
     left:10%;
     margin-left: -12vh;
@@ -362,8 +334,10 @@ table{
   }
   #Project2{
     position: absolute;
-    width:  24vh;
-    height: 32vh;
+        background-image: url('RailCartProject.PNG');
+    background-size: 100% 100%;
+    width:  16%;
+    height: 40%;
     top:4%;
     left:30%;
     margin-left: -12vh;
@@ -396,8 +370,10 @@ table{
   }
   #Project3{
     position: absolute;
-    width:  24vh;
-    height: 32vh;
+        background-image: url('RotaryProject.PNG');
+    background-size: 100% 100%;
+    width:  16%;
+    height: 40%;
     top:4%;
     left:50%;
     margin-left: -12vh;
@@ -430,8 +406,10 @@ table{
   }
   #Project4{
     position: absolute;
-    width:  24vh;
-    height: 32vh;
+        background-image: url('CapstoneProject.PNG');
+    background-size: 100% 100%;
+    width:  16%;
+    height: 40%;
     top:4%;
     left:70%;
     margin-left: -12vh;
@@ -464,8 +442,10 @@ table{
   }
   #Project5{
     position: absolute;
-    width:  24vh;
-    height: 32vh;
+        background-image: url('OtherProject.PNG');
+    background-size: 100% 100%;
+    width:  16%;
+    height: 40%;
     top:4%;
     left:90%;
     margin-left: -12vh;
