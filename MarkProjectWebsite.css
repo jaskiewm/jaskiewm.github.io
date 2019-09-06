@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   width: 90%;
   height: 90%;
-  top: 110%;
+  top: 100%;
   left: 5%;
   /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);*/
   background-color:#d5deed;
@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 200%;
+  top: 300%;
   left: 0%;
   /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
 }
@@ -81,7 +81,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 300%;
+  top: 400%;
   left: 0%;
   /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
 }
@@ -89,7 +89,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   width: 100%;
   height: 50%;
-  top: 410%;
+  top: 510%;
   left: 0%;
   /*background-image: linear-gradient(to bottom, #caf0ad 0%, #b1f0aa 100%);*/
 }
