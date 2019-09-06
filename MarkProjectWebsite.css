@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   width: 90%;
   height: 90%;
-  top: 100%;
+  top: 110%;
   left: 5%;
   /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);*/
   background-color:#d5deed;
