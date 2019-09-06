@@ -71,17 +71,17 @@ body::-webkit-scrollbar-thumb {
 }
 #ExperiencePage{
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 300%;
-  left: 0%;
+  width: 90%;
+  height: 90%;
+  top: 200%;
+  left: 5%;
   /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
 }
 #ProjectPage{
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 400%;
+  top: 300%;
   left: 0%;
   /*background-image: linear-gradient(to bottom,#a7ebc7 0%, #caf0ad 100%);*/
 }
@@ -89,7 +89,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   width: 100%;
   height: 50%;
-  top: 510%;
+  top: 410%;
   left: 0%;
   /*background-image: linear-gradient(to bottom, #caf0ad 0%, #b1f0aa 100%);*/
 }
