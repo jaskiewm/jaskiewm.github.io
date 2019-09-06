@@ -52,7 +52,22 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   top: 0%;
   left: 0%;
+  background-image: url('Home Background 2.jpg');
+  background-image: contain;
+  /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);
+  background-image: url('Home Background 2.jpg');
+  background-size: cover;*/
+}
+#AboutPage{
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 100%;
+  left: 5%;
   /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);*/
+  background-color:#d5deed;
+  background-size: cover;
+  border: 1px black solid;
 }
 #ExperiencePage{
   position: absolute;
