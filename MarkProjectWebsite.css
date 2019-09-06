@@ -53,7 +53,7 @@ body::-webkit-scrollbar-thumb {
   top: 0%;
   left: 0%;
   background-image: url('Home Background 2.jpg');
-  background-image: contain;
+  background-size: contain;
   /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);
   background-image: url('Home Background 2.jpg');
   background-size: cover;*/
@@ -96,63 +96,96 @@ body::-webkit-scrollbar-thumb {
 /*------------------------------------------------------------*/
 #Name{
   position: absolute;
-  left: 7%;
-  width: 150vh;
-  height: 10vh;
-  margin-left:0vh;
+  left: 50%;
+  top: 35%;
+  width: 75%;
+  height: 10%;
+  margin-left:-37.5%;
   font:9vh Raleway;
   color: #3d3d29;
   font-family: 'Raleway';
   font-weight: bolder;
+  text-align: center;
 }
 #QuickIntro{
   position: absolute;
-  left: 7%;
-  top: 10%;
-  width: 150vh;
-  height: 10vh;
-  margin-left:0vh;
+  left: 50%;
+  top: 45%;
+  width: 75%;
+  height: 10%;
+  margin-left:-37.5%;
   font:4vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   font-weight: bold;
   opacity: 0.7;
+  text-align: center;
 }
 #PictureOfMe{
   position: absolute;
-  left: 12%;
-  top: 20%;
-  width: 18%;
-  height: 36%;
-  border-radius: 100%;
+  left: 80%;
+  top: 15%;
+  width: 20%;
+  padding-top: 20%;
+  height: auto;
+  margin-left:-10%;
+  border-radius: 50%;
   overflow: hidden;
   border: black 3px solid;
+  background-image:url('PictureOfMe2.png');
+  background-size: cover;
 }
-#PictureInitials{
+#AboutTitle{
   position: absolute;
-  left: 80%;
+  left: 50%;
   top: 5%;
-  width: 7%;
-  height: 7.5%;
-  border-radius: 100%;
-  overflow: hidden;
-  border: black 0.1vh solid;
-  font-family: 'AMGDT';
-  font-size: 5vh;
-  font-style: italic;
-  color: black;
-  padding-left: 1%;
-  vertical-align: middle;
+  width: 25%;
+  height: 5%;
+  margin-left: -12.5%;
+  font:4vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
 }
 #AboutMe{
   position: absolute;
-  left: 10%;
-  top: 60%;
-  width: 100vh;
-  height: 50vh;
+  left: 5%;
+  top: 10%;
+  width: 60%;
+  height: 55%;
+  font:2.75vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  border-radius: 5% / 5.5%;
+  padding: 1%
+}
+#Bio{
+  position: absolute;
+  left: 9%;
+  top: 65%;
+  width: 34%;
+  /*margin-left: -12%;*/
+  height: 22%;
   font:2vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
+}
+#Skills{
+  position: absolute;
+  right: 8%;
+  top: 65%;
+  width: 40%;
+  /*margin-left: -17%;*/
+  height: 22%;
+  font:2vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+}
+caption{
+  font:200% Raleway;
+  font-weight: bold;
 }
 th, td {
   padding-top: -1vh;
@@ -170,19 +203,6 @@ td:nth-child(2){
 }
 table{
   border-collapse: collapse;
-}
-#AboutMe2{
-  position: absolute;
-  left: 37%;
-  top: 20%;
-  width: 50%;
-  height: 55%;
-  font:2.75vh Raleway;
-  color: #5c5c3d;
-  font-family: 'Raleway';
-  background-color: #9ed0de;
-  border-radius: 5% / 5.5%;
-  padding: 1%
 }
 /*------------------------------------------------------------*/
 #ExperienceTitle{
