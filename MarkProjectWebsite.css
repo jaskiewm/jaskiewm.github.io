@@ -25,7 +25,7 @@ body{
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom,#a8dff0 0%,#caf0ad 100%); /* #a7ebc7 33.333%, #caf0ad 66.66667%,#b1f0aa 100%);*/
+  /*  background-image: linear-gradient(to bottom,#a8dff0 0%,#caf0ad 100%);  #a7ebc7 33.333%, #caf0ad 66.66667%,#b1f0aa 100%);*/
 }
 body::-webkit-scrollbar {
     height: 10px;
