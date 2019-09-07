@@ -115,7 +115,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50%;
   overflow: hidden;
   border: black 3px solid;
-  background-image:url('PictureOfMe2.png');
+  background-image:url('PictureOfMe.png');
   background-size: cover;
 }
 #PictureInitials{
