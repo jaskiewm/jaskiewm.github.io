@@ -98,13 +98,13 @@ body::-webkit-scrollbar-thumb {
   top: 0%;
   left: 0%;
   background-color: grey;
-  font:4vh Raleway;
+  font:3.5vh Raleway;
   color: White;
   font-family: 'Raleway';
   text-align: center;
   font-weight: bold;
   opacity: 0;
-  padding: 1%;
+  padding: 10%;
 }
 /*------------------------------------------------------------*/
 #Name{
@@ -134,7 +134,6 @@ body::-webkit-scrollbar-thumb {
   opacity: 0.7;
   text-align: center;
 }
-
 #PictureOfMe{
   position: absolute;
   left: 80%;
