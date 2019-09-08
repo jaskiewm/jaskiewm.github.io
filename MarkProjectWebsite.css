@@ -610,6 +610,19 @@ table{
   font-weight: bold;
   text-decoration: underline;
 }
+#ProjectConstruction{
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 25%;
+  height: 5%;
+  margin-left: -12.5%;
+  font:3vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  text-align: center;
+}
+
 #ProjectDisplay1{
   position: absolute;
   top:40%;
