@@ -104,6 +104,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   font-weight: bold;
   opacity: 0;
+  padding: 1%;
 }
 /*------------------------------------------------------------*/
 #Name{
