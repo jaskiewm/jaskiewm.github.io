@@ -1,3 +1,4 @@
+
 /*-------------------------LINKS------------------------------*/
 a:link{
   color:#323634;
@@ -24,11 +25,13 @@ body{
     background-attachment: fixed;
     background-image: url('Home Background 2.jpg');
     background-size: cover;
+    /*background-image: linear-gradient(to bottom,#a8dff0 0%,#caf0ad 100%); #a7ebc7 33.333%, #caf0ad 66.66667%,#b1f0aa 100%);*/
 }
 body::-webkit-scrollbar {
     height: 10px;
 }
 body::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);*/
     background-color: slategrey;
 }
 body::-webkit-scrollbar-thumb {
@@ -49,6 +52,9 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   top: 0%;
   left: 0%;
+  /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);
+  background-image: url('Home Background 2.jpg');
+  background-size: cover;*/
 }
 #AboutPage{
   position: absolute;
@@ -56,6 +62,7 @@ body::-webkit-scrollbar-thumb {
   height: 90%;
   top: 100%;
   left: 5%;
+  /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);*/
   background-color:#d5deed;
   background-size: cover;
   border: 1px black solid;
@@ -67,6 +74,7 @@ body::-webkit-scrollbar-thumb {
   height: 90%;
   top: 200%;
   left: 5%;
+  /*background-image: linear-gradient(to bottom,#a8dff0 0%, #a7ebc7 100%);*/
   background-color: #e4edd5;
   border: 1px black solid;
   border-radius: 3% / 5.33%;
@@ -134,6 +142,7 @@ body::-webkit-scrollbar-thumb {
   opacity: 0.7;
   text-align: center;
 }
+
 #PictureOfMe{
   position: absolute;
   left: 80%;
@@ -609,19 +618,6 @@ table{
   font-weight: bold;
   text-decoration: underline;
 }
-#ProjectConstruction{
-  position: absolute;
-  left: 50%;
-  top: 45%;
-  width: 25%;
-  height: 5%;
-  margin-left: -12.5%;
-  font:3vh Raleway;
-  color: #5c5c3d;
-  font-family: 'Raleway';
-  text-align: center;
-}
-
 #ProjectDisplay1{
   position: absolute;
   top:40%;
@@ -650,16 +646,30 @@ table{
   background-image:url('ProjectOne.png');
   background-size: cover;
   border: black 2px solid;
+  z-index: 1;
+}
+#ProjectOneOverlay{
+  position: absolute;
+  top: 25.4%;
+  left: 13.1%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-color: black;
+  opacity: 1;
 }
 #ProjectOne:hover{
-    background-color: grey;
-    -webkit-transition: background-color 250ms;
-    -ms-transition: background-color 250ms;
-     transition: background-color 250ms;
+  opacity: 0.9;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
 }
 #ProjectOneDisplay1{
   position: absolute;
-  top:45%;
+  top:41%;
   left:70%;
   width: 48%;
   height: 28%;
@@ -670,7 +680,7 @@ table{
   z-index: 1;
   background-size: cover;
   border-radius: 6% / 15%;
-  font:2.75vh Raleway;
+  font:2.6vh Raleway;
   color: #5c5c3d;
   font-family: 'Raleway';
   padding: 1%;
@@ -688,7 +698,7 @@ table{
   margin-left: -25%;
    visibility: visible;
    z-index: 1;
-   background-image:url('ExperienceDisplayOne.png');
+   background-image:url('ProjectOneDisplay.png');
    background-size: cover;
    border-radius: 7.8% /  18%;
    border: black 2px solid;
@@ -706,6 +716,7 @@ table{
   -ms-transition: opacity 250ms;
    transition: opacity 250ms;
 }
+
 #ProjectTwo{
   position: absolute;
   top: 25%;
@@ -716,31 +727,48 @@ table{
   margin-top:-5%;
   padding-top: 8.3%;
   border-radius: 24% / 30%;
-  background-image:url('Test.png');
+  background-image:url('ProjectTwo.png');
   background-size: cover;
   border: black 2px solid;
+  z-index: 1;
+}
+#ProjectTwoOverlay{
+  position: absolute;
+  top: 25.4%;
+  left: 29.1%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-color: black;
+  opacity: 1;
 }
 #ProjectTwo:hover{
-    background-color: grey;
-    -webkit-transition: background-color 250ms;
-    -ms-transition: background-color 250ms;
-     transition: background-color 250ms;
+  opacity: 0.9;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
 }
 #ProjectTwoDisplay1{
   position: absolute;
-  top:45%;
+  top:41%;
   left:70%;
-  width: 50%;
-  height: 30%;
+  width: 48%;
+  height: 28%;
   margin-top: -15%;
   margin-left: -25%;
   opacity: 1;
   visibility: visible;
   z-index: 1;
-  background-color: blue;
   background-size: cover;
-  border-radius: 6% /  15%;
-  border: black 2px solid;
+  border-radius: 6% / 15%;
+  font:2.6vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  padding: 1%;
+  background-color: #e9f5f1;
 }
 #ProjectTwoDisplay2{
   position: absolute;
@@ -754,7 +782,7 @@ table{
   margin-left: -25%;
    visibility: visible;
    z-index: 1;
-   background-image:url('ExperienceDisplayOne.png');
+   background-image:url('ProjectTwoDisplay.png');
    background-size: cover;
    border-radius: 7.8% /  18%;
    border: black 2px solid;
@@ -772,9 +800,10 @@ table{
   -ms-transition: opacity 250ms;
    transition: opacity 250ms;
 }
+
 #ProjectThree{
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 13%;
   width: 12%;
   height: auto;
@@ -782,31 +811,48 @@ table{
   margin-top:-5%;
   padding-top: 8.3%;
   border-radius: 24% / 30%;
-  background-image:url('Test.png');
+  background-image:url('ProjectThree.png');
   background-size: cover;
   border: black 2px solid;
+  z-index: 1;
+}
+#ProjectThreeOverlay{
+  position: absolute;
+  top: 48.4%;
+  left: 13.1%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-color: black;
+  opacity: 1;
 }
 #ProjectThree:hover{
-    background-color: grey;
-    -webkit-transition: background-color 250ms;
-    -ms-transition: background-color 250ms;
-     transition: background-color 250ms;
+  opacity: 0.9;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
 }
 #ProjectThreeDisplay1{
   position: absolute;
-  top:45%;
+  top:41%;
   left:70%;
-  width: 50%;
-  height: 30%;
+  width: 48%;
+  height: 28%;
   margin-top: -15%;
   margin-left: -25%;
   opacity: 1;
   visibility: visible;
   z-index: 1;
-  background-color: blue;
   background-size: cover;
-  border-radius: 6% /  15%;
-  border: black 2px solid;
+  border-radius: 6% / 15%;
+  font:2.6vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  padding: 1%;
+  background-color: #e9f5f1;
 }
 #ProjectThreeDisplay2{
   position: absolute;
@@ -820,7 +866,7 @@ table{
   margin-left: -25%;
    visibility: visible;
    z-index: 1;
-   background-image:url('ExperienceDisplayOne.png');
+   background-image:url('ProjectThreeDisplay.png');
    background-size: cover;
    border-radius: 7.8% /  18%;
    border: black 2px solid;
@@ -833,6 +879,258 @@ table{
    transition: opacity 250ms;
 }
 #ProjectThree:hover + #ProjectThreeDisplay{
+  opacity: 1;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+
+#ProjectFour{
+  position: absolute;
+  top: 48%;
+  left: 29%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-image:url('ProjectFour.png');
+  background-size: cover;
+  border: black 2px solid;
+  z-index: 1;
+}
+#ProjectFourOverlay{
+  position: absolute;
+  top: 48.4%;
+  left: 29.1%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-color: black;
+  opacity: 1;
+}
+#ProjectFour:hover{
+  opacity: 0.9;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+#ProjectFourDisplay1{
+  position: absolute;
+  top:41%;
+  left:70%;
+  width: 48%;
+  height: 28%;
+  margin-top: -15%;
+  margin-left: -25%;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+  background-size: cover;
+  border-radius: 6% / 15%;
+  font:2.6vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  padding: 1%;
+  background-color: #e9f5f1;
+}
+#ProjectFourDisplay2{
+  position: absolute;
+  top:70%;
+  left:70%;
+  width: 50%;
+  height: auto;
+  padding-top:21.67%;
+  margin-top: -10.83%;
+  opacity: 1;
+  margin-left: -25%;
+   visibility: visible;
+   z-index: 1;
+   background-image:url('ProjectFourDisplay.png');
+   background-size: cover;
+   border-radius: 7.8% /  18%;
+   border: black 2px solid;
+}
+#ProjectFourDisplay{
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+#ProjectFour:hover + #ProjectFourDisplay{
+  opacity: 1;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+
+#ProjectFive{
+  position: absolute;
+  top: 71%;
+  left: 13%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-image:url('ProjectFive.png');
+  background-size: cover;
+  border: black 2px solid;
+  z-index: 1;
+}
+#ProjectFiveOverlay{
+  position: absolute;
+  top: 71.3%;
+  left: 13.1%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-color: black;
+  opacity: 1;
+}
+#ProjectFive:hover{
+  opacity: 0.9;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+#ProjectFiveDisplay1{
+  position: absolute;
+  top:41%;
+  left:70%;
+  width: 48%;
+  height: 28%;
+  margin-top: -15%;
+  margin-left: -25%;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+  background-size: cover;
+  border-radius: 6% / 15%;
+  font:2.6vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  padding: 1%;
+  background-color: #e9f5f1;
+}
+#ProjectFiveDisplay2{
+  position: absolute;
+  top:70%;
+  left:70%;
+  width: 50%;
+  height: auto;
+  padding-top:21.67%;
+  margin-top: -10.83%;
+  opacity: 1;
+  margin-left: -25%;
+  visibility: visible;
+  z-index: 1;
+  background-image:url('ProjectFiveDisplay.png');
+  background-size: cover;
+  border-radius: 7.8% /  18%;
+  border: black 2px solid;
+}
+#ProjectFiveDisplay{
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+#ProjectFive:hover + #ProjectFiveDisplay{
+  opacity: 1;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+
+#ProjectSix{
+  position: absolute;
+  top: 71%;
+  left: 29%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-image:url('ProjectSix.png');
+  background-size: cover;
+  border: black 2px solid;
+  z-index: 1;
+}
+#ProjectSixOverlay{
+  position: absolute;
+  top: 71.3%;
+  left: 29.1%;
+  width: 12%;
+  height: auto;
+  margin-left: -5%;
+  margin-top:-5%;
+  padding-top: 8.3%;
+  border-radius: 24% / 30%;
+  background-color: black;
+  opacity: 1;
+}
+#ProjectSix:hover{
+  opacity: 0.9;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+#ProjectSixDisplay1{
+  position: absolute;
+  top:41%;
+  left:70%;
+  width: 48%;
+  height: 28%;
+  margin-top: -15%;
+  margin-left: -25%;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+  background-size: cover;
+  border-radius: 6% / 15%;
+  font:2.6vh Raleway;
+  color: #5c5c3d;
+  font-family: 'Raleway';
+  padding: 1%;
+  background-color: #e9f5f1;
+}
+#ProjectSixDisplay2{
+  position: absolute;
+  top:70%;
+  left:70%;
+  width: 50%;
+  height: auto;
+  padding-top:21.67%;
+  margin-top: -10.83%;
+  opacity: 1;
+  margin-left: -25%;
+   visibility: visible;
+   z-index: 1;
+   background-image:url('ProjectSixDisplay.png');
+   background-size: cover;
+   border-radius: 7.8% /  18%;
+   border: black 2px solid;
+}
+#ProjectSixDisplay{
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 250ms;
+  -ms-transition: opacity 250ms;
+   transition: opacity 250ms;
+}
+#ProjectSix:hover + #ProjectSixDisplay{
   opacity: 1;
   -webkit-transition: opacity 250ms;
   -ms-transition: opacity 250ms;
