@@ -1353,15 +1353,14 @@ table{
 #MobileInfo{
   position: absolute;
   left: 50%;
-  top: 45%;
+  top: 35%;
   width: 80%;
   padding-top: 40%;
   height: auto;
   margin-left:-40%;
-  font:3.5vh Raleway;
+  font:3vh Raleway;
   color: White;
   font-family: 'Raleway';
-  text-align: justify;
   font-weight: bold;
   padding: 3%;
 }
