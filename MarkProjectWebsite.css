@@ -1,4 +1,3 @@
-
 /*-------------------------LINKS------------------------------*/
 a:link{
   color:#323634;
@@ -98,21 +97,6 @@ body::-webkit-scrollbar-thumb {
   background-color: #faf6cd;
   border: 1px black solid;
   border-radius: 3% / 5.33%;
-}
-#MobilePage{
-  position: absolute;
-  width: 100%;
-  height: 120%;
-  top: 0%;
-  left: 0%;
-  background-color: grey;
-  font:3.5vh Raleway;
-  color: White;
-  font-family: 'Raleway';
-  text-align: center;
-  font-weight: bold;
-  opacity: 0;
-  padding: 3%;
 }
 /*------------------------------------------------------------*/
 #Name{
@@ -968,7 +952,6 @@ table{
   -ms-transition: opacity 250ms;
    transition: opacity 250ms;
 }
-
 #ProjectFive{
   position: absolute;
   top: 71%;
@@ -1334,6 +1317,55 @@ table{
   opacity: 0.9;
   text-align: center;
 }
+/*-------------------------MOBILE PAGE-------------------------------------------*/
+#MobilePage{
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  top: 0%;
+  left: 0%;
+  background-color: grey;
+  opacity: 0;
+  z-index: 1;
+}
+#MobileText{
+  font:3.5vh Raleway;
+  color: Red;
+  font-family: 'Raleway';
+  text-align: center;
+  font-weight: bold;
+  padding: 3%;
+}
+#MobilePictureOfMe{
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  width: 40%;
+  padding-top: 40%;
+  height: auto;
+  margin-left:-20%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: #5c5c3d 2px solid;
+  background-image:url('PictureOfMe.png');
+  background-size: cover;
+}
+#MobileInfo{
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 80%;
+  padding-top: 40%;
+  height: auto;
+  margin-left:-40%;
+  font:3.5vh Raleway;
+  color: White;
+  font-family: 'Raleway';
+  text-align: justify;
+  font-weight: bold;
+  padding: 3%;
+}
+
 @media only screen and (max-width: 600px) {
   #wrapper {
     display: none;
