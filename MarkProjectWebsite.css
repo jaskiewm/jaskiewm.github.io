@@ -1329,17 +1329,30 @@ table{
   z-index: 1;
 }
 #MobileText{
-  font:3.5vh Raleway;
+  font:2.5vh Raleway;
   color: Red;
   font-family: 'Raleway';
   text-align: center;
   font-weight: bold;
   padding: 3%;
 }
-#MobilePictureOfMe{
+#MobileName{
   position: absolute;
   left: 50%;
   top: 15%;
+  width: 80%;
+  margin-left: -40%;
+  font:3.5vh Raleway;
+  color: white;
+  font-family: 'Raleway';
+  text-align: center;
+  font-weight: bold;
+
+}
+#MobilePictureOfMe{
+  position: absolute;
+  left: 50%;
+  top: 25%;
   width: 40%;
   padding-top: 40%;
   height: auto;
@@ -1353,7 +1366,7 @@ table{
 #MobileInfo{
   position: absolute;
   left: 50%;
-  top: 35%;
+  top: 40%;
   width: 80%;
   padding-top: 40%;
   height: auto;
@@ -1362,7 +1375,6 @@ table{
   color: White;
   font-family: 'Raleway';
   font-weight: bold;
-  padding: 3%;
 }
 
 @media only screen and (max-width: 600px) {
