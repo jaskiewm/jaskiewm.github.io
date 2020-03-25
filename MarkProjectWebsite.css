@@ -225,367 +225,128 @@ table{
   font-weight: bold;
   text-decoration: underline;
 }
-#ExperienceDisplay{
+#ExperienceDescription{
   position: absolute;
-  top:80%;
+  top:15%;
   left:50%;
-  width: 25%;
-  height: 10%;
-  margin-left: -12.5%;
-  margin-top: -5%;
-   z-index: 1;
-   font:3vh Raleway;
-   color: #5c5c3d;
-   font-family: 'Raleway';
-   text-align: center;
-   font-weight: bold;
+  width: 80%;
+  height: 40%;
+  margin-left: -40%;
+  z-index: 1;
+  font:3vh Raleway;
+  color: #5c5c3d;
 }
+
 #ExperienceOne{
   position: absolute;
-  top: 25%;
-  left: 15%;
+  top: 65%;
+  left: 20%;
   width: 10%;
   margin-left: -5%;
   margin-top:-5%;
   padding-top: 10%;
-  border-radius: 50%;
-  background-image:url('ExperienceOne.png');
-  background-size: cover;
-  border: black 2px solid;
-  z-index: 1;
-}
-#ExperienceOneOverlay{
-  position: absolute;
-  top: 25.15%;
-  left: 15.15%;
-  width: 10%;
-  margin-left: -5%;
-  margin-top:-5%;
-  padding-top: 10%;
-  border-radius: 50%;
-  background-color: black;
-  opacity: 1;
-}
-#ExperienceOne:hover {
-    opacity: 0.9;
-    -webkit-transition: opacity 250ms;
-    -ms-transition: opacity 250ms;
-     transition: opacity 250ms;
-}
-#ExperienceOneDisplay{
-  position: absolute;
-  top:50%;
-  left:50%;
-  width: 50%;
-  height: auto;
-  padding-top:21.67%;
-  opacity: 0;
-  margin-left: -25%;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
-   visibility: visible;
-   z-index: 1;
-   background-image:url('ExperienceDisplayOne.png');
-   background-size: cover;
-   border-radius: 7.8% /  18%;
-   border: black 2px solid;
-}
-#ExperienceOne:hover + #ExperienceOneDisplay{
-  opacity: 1;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
+  background-image:url('Experience One.png');
+  background-size:cover;
 }
 #ExperienceTwo{
   position: absolute;
-  top: 35%;
-  left: 29%;
+  top: 65%;
+  left: 35%;
   width: 10%;
   margin-left: -5%;
   margin-top:-5%;
   padding-top: 10%;
-  border-radius: 50%;
-  background-color: darkgrey;
-  background-image:url('ExperienceTwo.png');
-  background-size: cover;
-  border: black 2px solid;
-  z-index: 1;
-}
-#ExperienceTwoOverlay{
-  position: absolute;
-  top: 35.15%;
-  left: 29.15%;
-  width: 10%;
-  margin-left: -5%;
-  margin-top:-5%;
-  padding-top: 10%;
-  border-radius: 50%;
-  background-color: black;
-  opacity: 1;
-}
-#ExperienceTwo:hover {
-    opacity: 0.9;
-    -webkit-transition: opacity 250ms;
-    -ms-transition: opacity 250ms;
-     transition: opacity 250ms;
-}
-#ExperienceTwoDisplay{
-  position: absolute;
-  top:50%;
-  left:50%;
-  width: 50%;
-  height: auto;
-  padding-top:21.67%;
-  opacity: 0;
-  margin-left: -25%;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
-   visibility: visible;
-   z-index: 1;
-   background-image:url('ExperienceDisplayTwo.png');
-   background-size: cover;
-   border-radius: 7.8% /  18%;
-   border: black 2px solid;
-}
-#ExperienceTwo:hover + #ExperienceTwoDisplay{
-  opacity: 1;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
+  background-image:url('Experience Two.png');
+  background-size:cover;
 }
 #ExperienceThree{
   position: absolute;
-  top: 25%;
-  left: 43%;
+  top: 65%;
+  left: 50%;
   width: 10%;
   margin-left: -5%;
   margin-top:-5%;
   padding-top: 10%;
-  border-radius: 50%;
-  background-color: darkgrey;
-  background-image:url('ExperienceThree.png');
-  background-size: cover;
-  border: black 2px solid;
-  z-index: 1;
-}
-#ExperienceThreeOverlay{
-  position: absolute;
-  top: 25.15%;
-  left: 43.15%;
-  width: 10%;
-  margin-left: -5%;
-  margin-top:-5%;
-  padding-top: 10%;
-  border-radius: 50%;
-  background-color: black;
-  opacity: 1;
-}
-#ExperienceThree:hover {
-    opacity: 0.9;
-    -webkit-transition: opacity 250ms;
-    -ms-transition: opacity 250ms;
-     transition: opacity 250ms;
-}
-#ExperienceThreeDisplay{
-  position: absolute;
-  top:50%;
-  left:50%;
-  width: 50%;
-  height: auto;
-  padding-top:21.67%;
-  opacity: 0;
-  margin-left: -25%;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
-   visibility: visible;
-   z-index: 1;
-   background-image:url('ExperienceDisplayThree.png');
-   background-size: cover;
-   border-radius: 7.8% /  18%;
-   border: black 2px solid;
-}
-#ExperienceThree:hover + #ExperienceThreeDisplay{
-  opacity: 1;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
+  background-image:url('Experience Three.png');
+  background-size:cover;
 }
 #ExperienceFour{
   position: absolute;
-  top: 35%;
-  left: 57%;
+  top: 65%;
+  left: 65%;
   width: 10%;
   margin-left: -5%;
   margin-top:-5%;
   padding-top: 10%;
-  border-radius: 50%;
-  background-color: darkgrey;
-  background-image:url('ExperienceFour.png');
-  background-size: cover;
-  border: black 2px solid;
-  z-index: 1;
-}
-#ExperienceFourOverlay{
-  position: absolute;
-  top: 35.15%;
-  left: 57.15%;
-  width: 10%;
-  margin-left: -5%;
-  margin-top:-5%;
-  padding-top: 10%;
-  border-radius: 50%;
-  background-color: black;
-  opacity: 1;
-}
-#ExperienceFour:hover {
-    opacity: 0.9;
-    -webkit-transition: opacity 250ms;
-    -ms-transition: opacity 250ms;
-     transition: opacity 250ms;
-}
-#ExperienceFourDisplay{
-  position: absolute;
-  top:50%;
-  left:50%;
-  width: 50%;
-  height: auto;
-  padding-top:21.67%;
-  opacity: 0;
-  margin-left: -25%;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
-   visibility: visible;
-   z-index: 1;
-   background-image:url('ExperienceDisplayFour.png');
-   background-size: cover;
-   border-radius: 7.8% /  18%;
-   border: black 2px solid;
-}
-#ExperienceFour:hover + #ExperienceFourDisplay{
-  opacity: 1;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
+  background-image:url('Experience Four.png');
+  background-size:cover;
 }
 #ExperienceFive{
   position: absolute;
-  top: 25%;
-  left: 71%;
+  top: 65%;
+  left: 80%;
   width: 10%;
   margin-left: -5%;
   margin-top:-5%;
   padding-top: 10%;
-  border-radius: 50%;
-  background-color: darkgrey;
-  background-image:url('ExperienceFive.png');
-  background-size: cover;
-  border: black 2px solid;
-  z-index: 1;
+  background-image:url('Experience Five.png');
+  background-size:cover;
 }
-#ExperienceFiveOverlay{
+
+#ExperienceOneDisplay{
   position: absolute;
-  top: 25.15%;
-  left: 71.15%;
+  top: 88%;
+  left: 20%;
   width: 10%;
   margin-left: -5%;
   margin-top:-5%;
-  padding-top: 10%;
-  border-radius: 50%;
-  background-color: black;
-  opacity: 1;
+  font:3vh Raleway;
+  color: #5c5c3d;
+  text-align: center;
 }
-#ExperienceFive:hover {
-    opacity: 0.9;
-    -webkit-transition: opacity 250ms;
-    -ms-transition: opacity 250ms;
-     transition: opacity 250ms;
+#ExperienceTwoDisplay{
+  position: absolute;
+  top: 88%;
+  left: 35%;
+  width: 10%;
+  margin-left: -5%;
+  margin-top:-5%;
+  font:3vh Raleway;
+  color: #5c5c3d;
+  text-align: center;
+}
+#ExperienceThreeDisplay{
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  width: 10%;
+  margin-left: -5%;
+  margin-top:-5%;
+  font:3vh Raleway;
+  color: #5c5c3d;
+  text-align: center;
+}
+#ExperienceFourDisplay{
+  position: absolute;
+  top: 88%;
+  left: 65%;
+  width: 10%;
+  margin-left: -5%;
+  margin-top:-5%;
+  font:3vh Raleway;
+  color: #5c5c3d;
+  text-align: center;
 }
 #ExperienceFiveDisplay{
   position: absolute;
-  top:50%;
-  left:50%;
-  width: 50%;
-  height: auto;
-  padding-top:21.67%;
-  opacity: 0;
-  margin-left: -25%;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
-   visibility: visible;
-   z-index: 1;
-   background-image:url('ExperienceDisplayFive.png');
-   background-size: cover;
-   border-radius: 7.8% /  18%;
-   border: black 2px solid;
-}
-#ExperienceFive:hover + #ExperienceFiveDisplay{
-  opacity: 1;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
-}
-#ExperienceSix{
-  position: absolute;
-  top: 35%;
-  left: 85%;
+  top: 88%;
+  left: 80%;
   width: 10%;
   margin-left: -5%;
   margin-top:-5%;
-  padding-top: 10%;
-  border-radius: 50%;
-  background-color: darkgrey;
-  background-image:url('ExperienceSix.png');
-  background-size: cover;
-  border: black 2px solid;
-  z-index: 1;
-}
-#ExperienceSixOverlay{
-  position: absolute;
-  top: 35.15%;
-  left: 85.15%;
-  width: 10%;
-  margin-left: -5%;
-  margin-top:-5%;
-  padding-top: 10%;
-  border-radius: 50%;
-  background-color: black;
-  opacity: 1;
-}
-#ExperienceSix:hover {
-    opacity: 0.9;
-    -webkit-transition: opacity 250ms;
-    -ms-transition: opacity 250ms;
-     transition: opacity 250ms;
-}
-#ExperienceSixDisplay{
-  position: absolute;
-  top:50%;
-  left:50%;
-  width: 50%;
-  height: auto;
-  padding-top:21.67%;
-  opacity: 0;
-  margin-left: -25%;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
-   visibility: visible;
-   z-index: 1;
-   background-image:url('ExperienceDisplaySix.png');
-   background-size: cover;
-   border-radius: 7.8% /  18%;
-   border: black 2px solid;
-}
-#ExperienceSix:hover + #ExperienceSixDisplay{
-  opacity: 1;
-  -webkit-transition: opacity 250ms;
-  -ms-transition: opacity 250ms;
-   transition: opacity 250ms;
+  font:3vh Raleway;
+  color: #5c5c3d;
+  text-align: center;
 }
 
 #ProjectTitle{
