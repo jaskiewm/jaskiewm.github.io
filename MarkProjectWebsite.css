@@ -905,23 +905,23 @@ table{
   padding-bottom: 11%;
   margin-left: -12.5%;
   margin-top: -12.35%;
-  background-image: url('Resume.PNG');
+  /*background-image: url('Resume.PNG');*/
+  background: rgb(204, 204, 204);
   background-size: cover;
   border: #5c5c3d 2px solid;
   border-radius: 9%;
-  font:200% Raleway;
+  font:4vh Raleway;
   color: #5c5c3d;
-  font-family: 'Raleway';
   font-weight: bolder;
   text-align: center;
-  text-indent: 100%;
+  /*text-indent: 25em;*/
   white-space: nowrap;
   overflow: hidden;
   -webkit-transition: opacity: 0.1 ease-in-out;
   -ms-transition: opacity: 0.1 ease-in-out;
   transition: opacity: 0.1 ease-in-out;
   z-index: 2;
-}
+}/*
 #ConnectResume:hover{
   background: rgb(204, 204, 204);
   -webkit-transition: Back: 0.1 ease-in-out;
@@ -945,11 +945,10 @@ table{
   border: #5c5c3d 2px solid;
   border-radius: 9%;
   z-index: 1;
-
   -webkit-transition: opacity: 1 ease-in-out;
   -ms-transition: opacity: 1 ease-in-out;
   transition: opacity: 1 ease-in-out;
-}
+}*/
 #ContactEmailTitle{
   position: absolute;
   top:30%;
