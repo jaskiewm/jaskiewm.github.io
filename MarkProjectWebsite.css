@@ -521,6 +521,43 @@ table{
   font-weight: bold;
   text-decoration: underline;
 }
+
+#ContactDescription{
+  position: absolute;
+  top:15%;
+  left:50%;
+  width: 80%;
+  height: 40%;
+  margin-left: -40%;
+  z-index: 1;
+  font:3vh Raleway;
+  color: #5c5c3d;
+}
+#ContactLinkedIn{
+  position: absolute;
+  top:60%;
+  left:70%;
+  width: 20vh;
+  height: 20vh;
+  margin-top: -5%;
+  margin-left: -5%;
+  background-size: cover;
+  background-image:url('LinkedIn.png');
+  z-index: 1;
+}
+#ContactPicture{
+  position: absolute;
+  top:50%;
+  left:20%;
+  width: 46vh;
+  height: 35vh;
+  margin-top: -5%;
+  margin-left: -5%;
+  background-size:cover;
+  background-image:url('Cactus.png');
+  z-index: 1;
+}
+/*
 #ConnectResume{
   position: absolute;
   left: 75%;
@@ -531,7 +568,7 @@ table{
   padding-bottom: 11%;
   margin-left: -12.5%;
   margin-top: -12.35%;
-  /*background-image: url('Resume.PNG');*/
+  background-image: url('Resume.PNG');
   background: rgb(204, 204, 204);
   background-size: cover;
   border: #5c5c3d 2px solid;
@@ -540,14 +577,14 @@ table{
   color: #5c5c3d;
   font-weight: bolder;
   text-align: center;
-  /*text-indent: 25em;*/
+  text-indent: 25em;
   white-space: nowrap;
   overflow: hidden;
   -webkit-transition: opacity: 0.1 ease-in-out;
   -ms-transition: opacity: 0.1 ease-in-out;
   transition: opacity: 0.1 ease-in-out;
   z-index: 2;
-}/*
+}
 #ConnectResume:hover{
   background: rgb(204, 204, 204);
   -webkit-transition: Back: 0.1 ease-in-out;
@@ -574,7 +611,7 @@ table{
   -webkit-transition: opacity: 1 ease-in-out;
   -ms-transition: opacity: 1 ease-in-out;
   transition: opacity: 1 ease-in-out;
-}*/
+}
 #ContactEmailTitle{
   position: absolute;
   top:30%;
@@ -677,7 +714,7 @@ table{
   text-align: center;
   font-weight: bolder;
 }
-
+*/
 #BuiltByLine{
   position: absolute;
   top:478%;
