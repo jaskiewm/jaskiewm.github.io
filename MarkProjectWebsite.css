@@ -99,8 +99,8 @@ body::-webkit-scrollbar-thumb {
   height: 10%;
   margin-left:-37.5%;
   font:7vh Raleway;
-  color: #3d3d29;
-  font-family: 'Raleway';
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
   text-align: center;
 }
@@ -111,11 +111,12 @@ body::-webkit-scrollbar-thumb {
   width: 75%;
   height: 10%;
   margin-left:-37.5%;
-  font:3.5vh Raleway;
-  color: #5c5c3d;
-  font-family: 'Raleway';
+  font:3vh Raleway;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
   font-weight: bolder;
   text-align: center;
+  /*#3d3d29#5c5c3d*/
 }
 
 #PictureOfMe{
