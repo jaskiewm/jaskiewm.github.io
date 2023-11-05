@@ -1,0 +1,248 @@
+/*-------------------------LINKS------------------------------*/
+a:link {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    top: 50%;
+    position: relative;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+/*------------------------------------------------------------*/
+img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+p {
+    font-size: 1vw;
+    font-family: 'Short Stack';
+}
+h1 {
+    font-size: 1.2vw;
+    font-family: 'Short Stack', cursive;
+}
+h2 {
+    font-size: 1.3vw;
+    font-family: 'Short Stack';
+    text-decoration:underline;
+}
+/*--------------------------BODY------------------------------*/
+body {
+    overflow-x: hidden;
+    background-color: #eaeaea;
+    scroll-behavior: smooth;
+    /*background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url('Moon.jpg');
+    background-size: cover;
+    background-image: linear-gradient(to bottom,#a8dff0 0%,#caf0ad 100%); #a7ebc7 33.333%, #caf0ad 66.66667%,#b1f0aa 100%);*/
+}
+
+#wrapper {
+    width: 100%;
+    margin-left: -50%;
+    left: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------------------------TITLE & LINKS---------------------------*/
+.common-title {
+    font-family: 'Short Stack', cursive;
+    font-size: clamp(0.7rem, -0.3rem + 2.1vw, 2.2rem);
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    transition: 0.2s;
+    text-align: center;
+}
+
+#titleblock {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-left: -35%;
+    width: 70%;
+    height: 5%;
+    z-index: 10;
+}
+
+#TitleInitials {
+    font-family: 'Dancing Script';
+    font-size: 4vw;
+}
+
+#INDLINK {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    width: 10%;
+    margin-left: -5%;
+    color: black;
+}
+
+
+#ABTLINK {
+    position: absolute;
+    top: 0%;
+    left: 46.33%;
+    width: 12%;
+    margin-left: -6%;
+    color: black;
+}
+
+
+#PRJLINK {
+    position: absolute;
+    top: 0%;
+    left: 66.66%;
+    width: 18%;
+    margin-left: -9%;
+    color: black;
+}
+
+
+#EXPLINK {
+    position: absolute;
+    top: 0%;
+    left: 88%;
+    width: 14%;
+    margin-left: -7%;
+}
+
+/*-----------------------------About Description----------------------------*/
+#aboutContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 60%;
+    height: 60%;
+    margin-left: -30%;
+    left: 50%;
+    top: 20%;
+}
+#Description {
+    position: absolute;
+    width: 70%;
+    left: 30%;
+    height: 70%;
+    font-size: 1vw;
+    font-family: 'Short Stack', cursive;
+    padding-top:1%;
+}
+#bioArea {
+    display: flex;
+    width: 28%;
+    flex-direction: column;
+    align-items:center;
+    align-content:space-evenly;
+    background-color: lightgray;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+#imageOfMe {
+    display: flex;
+    width: 70%;
+    height: auto;
+    background-size: cover;
+    padding-top:5%;
+}
+#bio {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 10%;
+}
+#bc1 {
+    display: flex;
+    font-size: 1.2vw;
+    font-family: 'Short Stack', cursive;
+    padding-top: 5%;
+}
+#bc2 {
+    display: flex;
+    font-size: 1vw;
+    font-family: 'Short Stack';
+    text-align: center;
+}
+#bc3 {
+    display: flex;
+    font-size: 1.2vw;
+    font-family: 'Short Stack', cursive;
+    padding-top: 5%;
+}
+#bc4 {
+    display: flex;
+    font-size: 1vw;
+    font-family: 'Short Stack';
+}
+#bc5 {
+    display: flex;
+    font-size: 1.2vw;
+    font-family: 'Short Stack', cursive;
+    padding-top: 5%;
+}
+#bc6 {
+    display: flex;
+    font-size: 1vw;
+    font-family: 'Short Stack';
+}
+
+/*------------------------EXTERNAL LINKS-------------------------*/
+#linkedin {
+    position: absolute;
+    top: 88%;
+    left: 70%;
+    width: 4%;
+    height: auto;
+    margin-left: -4.5%;
+    background-size: cover;
+    transition: 0.4s;
+}
+
+#linkedin:hover {
+    opacity: 0.8;
+}
+
+#github {
+    position: absolute;
+    top: 88%;
+    left: 75%;
+    width: 4%;
+    height: auto;
+    margin-left: -4.5%;
+    background-size: cover;
+    transition: 0.4s;
+}
+
+    #github:hover {
+        opacity: 0.7;
+    }
+/*--------------------------BUILT BY---------------------------*/
+
+#BuiltBy {
+    position: absolute;
+    top: 95%;
+    left: 20%;
+    height: auto;
+    Width: auto;
+    font: 0.8rem Verdana;
+    font-weight: bold;
+    font-family: 'Raleway';
+    opacity: 0.9;
+    text-align: center;
+}
