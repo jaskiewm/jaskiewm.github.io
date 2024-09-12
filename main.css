@@ -1,0 +1,211 @@
+/* main.css
+Assignment #1
+Mark Jaskiewicz Dobrowlanski
+
+CSS for the about me HTML web pages */
+
+/*Formatting for all header tags, p, and blockquote to change their font size*/
+h1{font-size: 2.5em;margin:0;}
+h2{font-size: 1.5em;margin:0;}
+h3{font-size: 1.2em;margin:0;}
+h4{font-size: 0.9em;margin:0;}
+p{font-size: 1em;}
+blockquote{font-size: 0.8em;}
+
+/*Global Variables*/
+:root{
+    --customBorder: #929292 2px solid;
+}
+
+/*Formatting the title to be in the center of the page*/
+header{
+    color: #3F3F3F;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    text-align: center;
+    
+}
+
+/* Changing the colour and hover colour of all links */
+a{
+    color:#797979;
+    text-decoration: none;
+}
+a:hover{
+    color:#3F3F3F;
+    text-decoration: underline;
+}
+
+/* Formatting of the entire body, this includes font, background colour,
+centering, and how much of the screen the content takes up*/
+body{
+    background-color: white;
+    border: var(--customBorder);
+    font-family: "Radio Canada Big";
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    padding-bottom: 2%;
+    width:60%;
+    text-align: left;
+}
+
+/*Links are organized in a collection of divs where a flexbox is used for 
+styling of the content. Spacing is adaptable to the width of the page*/
+#ContentTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-wrap: nowrap;
+    width: auto;
+}
+
+/*Individual items of the table of contents (the singular containers around
+each link). This creates the division between links and creates 
+padding / margins for eaier user readbility.*/
+.tocItem{
+    padding:4%;
+}
+
+/*Content div to ensure content is centered and a certain width*/
+#content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1%;
+    color: #3F3F3F;
+    border-radius: 10px;
+}
+
+/*All the images spread across the webpages. This is done instead of using
+the img tag as these ID's change the size of the div, while the img only
+changes the size of the image in the div*/
+#capstoneImage,#introImage,#dndImage,#skiImage{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    border-radius: 10px;
+}   
+
+figcaption{
+    text-align: center;
+}
+
+/*Formatting for all sections that are repeating with different information*/
+.educationPart,.projects,.jobs{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#Skiing, #lastEducation{
+    border-bottom: var(--customBorder);
+}
+
+/*Jobs section is formatted differently for margin as the gap is too close on
+mobile*/
+.jobs, .projects{
+    margin-top: 10%;
+    border-bottom: var(--customBorder);
+}
+
+/*Spaces out the title of project 4 from project 3*/
+#project3{
+    margin-bottom: 5%;
+}
+
+/* Projects section that formats each project to have a photo and description*/
+.projectSection{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: var(--customBorder);
+    margin-bottom:5%;
+}
+#p1Desc,#p2Desc,#p3Desc,#p4Desc,#p5Desc{
+    flex-basis:100%;
+}
+
+/*------------------------EXTERNAL LINKS-------------------------*/
+#linkedin, #github{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.4s;
+    width: 25%;
+}
+#github{
+    margin-bottom: 5%;
+}
+#ExternalLinks{
+    flex-direction: row;
+    margin-top: 2%;
+    width: 100%;
+}
+#linkedin:hover, #github:hover{
+    opacity: 0.6;
+}
+
+/*Content for media when the screen is larger than 800px (not on phone)*/
+@media only screen and (min-width: 800px) {
+    body{
+        width:50%;
+        border-radius: 10px;
+    }
+    #ContentTable{
+        flex-direction: row;
+        width:40%;
+    }
+    .tocItem{
+        padding:2%;
+    }
+    .educationPart,.projects,.jobs{
+        margin-top: 3%;
+    }
+    #capstoneImage,#introImage,#dndImage,#skiImage{
+        display:block;
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    #p1Photo,#p2Photo,#p3Photo,#p4Photo,#p5Photo{
+        flex-basis:25%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 1%;
+    }
+
+    #p1Photo{background-image:url("Images/PONG.png");}
+    #p2Photo{background-image:url("Images/GameCover.jpg");}
+    #p3Photo{background-image:url("Images/RPA.PNG");}
+    #p4Photo{background-image:url("Images/PEO.jpg");}
+    #p5Photo{background-image:url("Images/GoogleLogo.png");}
+
+    #p1Desc,#p2Desc,#p3Desc,#p4Desc,#p5Desc{
+        flex-basis:75%;
+    }
+
+    #linkedin, #github{
+        width: 5%;
+        transition: 0.4s;
+        margin-bottom: 2%;
+    }
+    #ExternalLinks{
+        margin-top: 2%;
+        width: 100%;
+    }
+    #linkedin:hover, #github:hover{
+        opacity: 0.6;
+    }
+}

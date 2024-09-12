@@ -1,52 +1,86 @@
+<!--Index.html
+Assignment #1
+Mark Jaskiewicz Dobrowlanski-->
+
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="MarkWebsite.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" href="Initials.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    <title>Mark JD</title>
-</head>
-  <body>
-      <div id="wrapper">
-          <div id='titleblock'>
-              <div id="TitleInitials">MJD</div>
-              <div class="common-title">
-                  <a href="index.html"><div id="INDLINK"><u>Home</u></div></a>
-                  <a href="About.html"><div id="ABTLINK">About</div></a>
-                  <a href="Projects.html"><div id="PRJLINK">Experience</div></a>
-                  <a href="Mark-JD-Resume.pdf"><div id="EXPLINK">Resume</div></a>
-              </div>
-          </div>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <title>About Mark</title>
+        <meta name="author" content="Mark Jaskiewicz Dobrowlanski">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big&family=Short+Stack&display=swap" rel="stylesheet">
+    </head>
 
-          <div id='NamePage'>
-              <div id="Name">Mark<br />Jaskiewicz<br />Dobrowlanski</div>
-              <div id='ProfilePic'></div>
-          </div>
-
-          <div id="QuickIntro">
-              An upcoming software engineer with a background in mechanical engineering.
-              <br />
-              Check out my <a href="Projects.html">projects & experience</a>!
-</div>
-
-          <div id='External Links'>
-              <a href="https://github.com/jaskiewm"><div id="github"><img src="Github.png" /></div></a>
-              <a href="https://www.linkedin.com/in/mark-jd/"><div id="linkedin"><img src="LinkedIn.png" /></div></a>
-          </div>
-
-          <div id='BuiltBy'>2023 Mark Jaskiewicz Dobrowlanski. All Rights Reserved.</div>
-      </div>
-  </body>
+    <body>
+        <!--Title of the Webpage-->
+        <header>
+            <h1>Mark Jaskiewicz Dobrowlanski</h1>
+        </header>
+        
+        <!--Links for accessing multiple pages-->
+        <div id="ContentTable">
+            <div class="tocItem">
+                <h3><u>Education</u></h3>
+            </div>
+            <div class="tocItem">
+                <h3><a href="Pages/experience.html">Experience</a></h3>
+            </div>
+            <div class="tocItem">
+                <h3><a href="Pages/skills.html">Projects</a></h3>
+            </div>
+            <div class="tocItem">
+                <h3><a href="Pages/hobbies.html">Hobbies</a></h3>
+            </div>
+            <div class="tocItem">
+                <h3><a href="Mark Jaskiewicz Dobrowlanski - Resume.pdf">Resume</a></h3>
+            </div>
+        </div>
+        <div id="content">
+            <div id="introduction">
+                <figure>
+                    <img id="introImage" 
+                    src="./Images/SchoolPhoto.jpg" 
+                    alt="Photo of Me in University">
+                    <figcaption>Photo of Me in 4th year at McMaster University</figcaption>
+                </figure>
+                <p>
+                    I believe education is a life long journey and I hope to 
+                    never stop learning. Currently,
+                    I am studying software development at Sheridan College 
+                    to hone my skills in software and learn more about the 
+                    industry. My past experience and education has mainly 
+                    focused on mechanical &amp; automotive engineering, so I am hoping to 
+                    bridge the gap between software and mechanical.
+                </p>
+                <figure>
+                    <img id = "capstoneImage" src="./Images/CapstoneRobot.jpg" alt="Photo of my Capstone Project">
+                    <figcaption>Photo of my Capstone Project</figcaption>
+                </figure>
+            </div>
+            <div class="educationPart">
+                <h2><u>Computer Science Diploma</u> - Software Development &amp; Network Engineering</h2>
+                <h3>Sheridan College</h3>
+                <h4>In Progress</h4>
+            </div>
+            <div class="educationPart">
+                <h2><u>Bachelor of Technology</u> - Automotive & Vehicle Engineering Technology</h2>
+                <h3>McMaster University</h3>
+                <h4>Graduated - Dec 2019</h4>
+            </div>
+            <div id="lastEducation" class="educationPart">
+                <h2><u>Technology Diploma</u> - Automotive Engineering Technology</h2>
+                <h3>Mohawk College</h3>
+                <h4>Graduated - Dec 2019</h4>
+            </div>
+            <div id="ExternalLinks">
+                <a href="https://github.com/jaskiewm"><img id="github" src="Images/Github.png" /></a>
+                <a href="https://www.linkedin.com/in/mark-jd/"><img id="linkedin"src="Images/LinkedIn.png" /></a>
+            </div>
+        </div>
+    </body>
 </html>
+
