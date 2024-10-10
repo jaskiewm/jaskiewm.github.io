@@ -188,11 +188,12 @@ mobile*/
         margin: 1%;
     }
 
-    #p1Photo{background-image:url("Images/PONG.png");}
-    #p2Photo{background-image:url("Images/GameCover.jpg");}
-    #p3Photo{background-image:url("Images/RPA.PNG");}
-    #p4Photo{background-image:url("Images/PEO.jpg");}
-    #p5Photo{background-image:url("Images/GoogleLogo.png");}
+    #p1Photo{background-image:url("Images/GameCover.jpg");}
+    #p2Photo{background-image:url("Images/TBeach.png");}
+    #p3Photo{background-image:url("Images/PONG.png");}
+    #p4Photo{background-image:url("Images/RPA.PNG");}
+    #p5Photo{background-image:url("Images/PEO.jpg");}
+    #p6Photo{background-image:url("Images/GoogleLogo.png");}
 
     #p1Desc,#p2Desc,#p3Desc,#p4Desc,#p5Desc{
         flex-basis:75%;
