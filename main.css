@@ -195,7 +195,7 @@ mobile*/
     #p5Photo{background-image:url("Images/PEO.jpg");}
     #p6Photo{background-image:url("Images/GoogleLogo.png");}
 
-    #p1Desc,#p2Desc,#p3Desc,#p4Desc,#p5Desc{
+    #p1Desc,#p2Desc,#p3Desc,#p4Desc,#p5Desc,#p6Desc{
         flex-basis:75%;
     }
 
