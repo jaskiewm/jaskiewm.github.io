@@ -43,10 +43,10 @@ body{
     background-color: white;
     border: var(--customBorder);
     font-family: "Radio Canada Big";
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4%;
+    margin-top: 3%;
     padding-bottom: 2%;
     width:70%;
     text-align: left;
@@ -90,7 +90,7 @@ changes the size of the image in the div*/
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width:100%;
+    width:80%;
     border-radius: 10px;
 }   
 
@@ -105,7 +105,7 @@ figcaption{
     justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 #Skiing, #lastEducation{
@@ -160,7 +160,7 @@ mobile*/
 @media only screen and (min-width: 950px) {
     h1{font-size: 2.5em;}
     body{
-        width:50%;
+        width:60%;
         border-radius: 10px;
     }
     #ContentTable{
@@ -175,7 +175,7 @@ mobile*/
     }
     #capstoneImage,#introImage,#dndImage,#skiImage{
         display:block;
-        width:60%;
+        width:40%;
         margin-left: auto;
         margin-right: auto;
         border-radius: 10px;
