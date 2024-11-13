@@ -130,7 +130,7 @@ mobile*/
     flex-direction: row;
     justify-content: space-evenly;
     border-bottom: var(--customBorder);
-    margin-bottom:5%;
+    margin-bottom:3%;
 }
 #p1Desc,#p2Desc,#p3Desc,#p4Desc,#p5Desc,#p6Desc{
     flex-basis:100%;
